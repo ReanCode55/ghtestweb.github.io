@@ -1,0 +1,1748 @@
+@media (min-width: 768px) and (max-width: 1024px){
+    .main-blog-1 .blog-1 .box:hover{
+        margin: 0px;
+    }
+    .main-header header{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-header header .logo{
+        width: 100px;
+        height: 80px;
+    }
+    .main-header header .icon{
+        display: block;
+        width: 35px;
+        height: 35px;
+        border: 2px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+    }
+    .main-header header .icon i{
+        font-size: 18px;
+        color: #fff;
+        padding: 5px;
+    }
+    .main-header header form{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #232323;
+        padding: 10px;
+    }
+    .main-header header form input{
+        width: 100%;
+        border: none;
+        outline: none;
+        padding: 5px;
+        position: relative;
+    }
+    .main-header header form button{
+        border: none;
+        outline: none;
+        position: absolute;
+        right: 10px;
+        padding: 5px;
+        width: 40px;
+        background-color: #e1e100;
+    }
+
+    .main-header nav,
+    .main-user-login,
+    .main-user-signup{
+        display: none;
+    }
+    #myNav{
+        display: none;
+    }
+    .mobile-menu{
+        width: 0;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #232323;
+        z-index: 200;
+        overflow-x: hidden;
+    }
+    .mobile-menu .icon{
+        display: block;
+        width: 35px;
+        height: 35px;
+        border: 2px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        position: absolute;
+        top: 32px;
+        right: 20px;
+        text-align: center;
+    }
+    .mobile-menu .icon i{
+        font-size: 18px;
+        color: #fff;
+        padding: 5px;
+    }
+    .mobile-menu ul{
+        margin: 100px 0px 0px 0px;
+        padding: 0;
+    }
+    .mobile-menu ul li{
+        padding: 10px;
+        text-align: center;
+    }
+    .mobile-menu ul li img{
+        width: 25px;
+        margin: 5px 0px;
+        height: 20px;
+    }
+    .mobile-menu ul li a{
+        display: block;
+        font-size: 13px;
+        color: #fff;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    #contact,
+    #user{
+        width: 30px;
+        height: 30px;
+    }
+
+    .trending i{
+        color: #e1e100;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .trending marquee{
+        width: 100%;
+        color: #e1e100;
+        font-size: 17px;
+        font-weight: 600;
+        padding: 10px;
+    }
+
+    .main-blog-1 .blog-1{
+        width: 100%;
+        margin: 10px auto;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #0000007a;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .main-blog-1 .blog-1 a{
+        width: 25%;
+        float: left;
+    }
+    .main-blog-1 .blog-1 a .box{
+        width: 96%;
+        float: left;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #20202042;
+        box-shadow: rgba(63, 63, 63, 0.582) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        transition: all 0.3s ease;
+    }
+    .main-blog-1 .blog-1 .box:not(.nohover){
+        margin-top: 0px;
+     }
+    .main-blog-1 .blog-1 a .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-blog-1 .blog-1 a .box .images img{
+        border-radius: 5px;
+    }
+    .main-blog-1 .blog-1 a .box .des h5{
+        font-size: 15px;
+        color: #e1e100;
+        font-weight: bold;
+    }
+    .main-blog-1 .blog-1 a .box .des h6{
+        font-size: 12px;
+        color: #e1e100;
+        font-weight: bold;
+    }
+
+    .main-blog-2{
+        width: 100%;
+        padding: 0px;
+        display: inline-block;
+    }
+    .main-blog-2 .blog-2{
+        width: 100%;
+        margin: 10px auto;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #0000007a;
+        box-shadow: rgba(63, 63, 63, 0.582) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        display: inline-block;
+    }
+    .main-blog-2 .blog-2 .left{
+        width: 100%;
+        float: none;
+    }
+    .main-blog-2 .blog-2 .left .main-box{
+        width: 25%;
+        float: left;
+        padding: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box{
+        width: 100%;
+        float: left;
+        margin: 0px auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box .images{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box .images img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box p{
+        color: #e1e100;
+        font-weight: bold;
+        font-size: 11px;
+        padding: 5px 0px;
+    }
+    .main-blog-2 .blog-2 .left .box .stars{
+        width: 100%;
+        padding: 5px;
+        margin-top: -15px;
+    }
+    .main-blog-2 .blog-2 .left .box .stars i{
+        color: #e1e100;
+        font-size: 10px;
+    }
+    .main-blog-2 .blog-2 .left .box .play{
+        border: 2px solid #e1e100;
+        padding: 0px;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box .play a{
+        color: #e1e100;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box .play:hover{
+        background-color: #99994c;
+    }
+    
+    .main-blog-2 .blog-2 .right{
+        width: 65%;
+        float: left;
+        display: none;
+    }
+    .main-blog-2 .blog-2 .right .box{
+        width: 100%;
+        margin: 5px auto;
+        padding: 10px;
+        background-color: #232323;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .right .box .images{
+        width: 100%;
+        height: 100%;
+    }
+    .main-blog-2 .blog-2 .right .box .images img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-blog-3 .blog-3{
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #0000007a;
+        box-shadow: rgba(63, 63, 63, 0.582) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+    .main-blog-3 .blog-3::after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .main-blog-3 .blog-3 .left{
+        width: 100%;
+        float: left;
+        /* background-color: #99994c; */
+    }
+    .main-blog-3 .blog-3 .left p{
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+    }
+    .main-blog-3 .blog-3 .left .link-download{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .main-blog-3 .blog-3 .left .link-download img{
+        width: 200px;
+        height: 100%;
+        margin: 10px;
+    }
+    .main-blog-3 .blog-3 .center{
+        width: 100%;
+        float: left;
+        display: none;
+    }
+    .main-blog-3 .blog-3 .center .box{
+        width: 100%;
+    }
+    .main-blog-3 .blog-3 .center .box .images{
+        width: 100%;
+        height: 100%;
+    }
+    .main-blog-3 .blog-3 .center .box .images img{
+        width: 100%;
+        height: 100%;
+    }
+    .main-blog-3 .blog-3 .right{
+        width: 100%;
+        float: left;
+        display: none;
+    }
+    .main-blog-3 .blog-3 .right .box{
+        width: 100%;
+    }
+    .main-blog-3 .blog-3 .right .box .images{
+        width: 100%;
+        height: 100%;
+    }
+    .main-blog-3 .blog-3 .right .box .images img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-footer footer{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .main-footer footer::after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .main-footer footer .about-us{
+        width: 100%;
+        text-align: center;
+        /* padding: 10px; */
+        float: left;
+    }
+    .main-footer footer .about-us h6{
+        color: #e1e100;
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .main-footer footer .about-us p{
+        font-size: 16px;
+        color: #fff;
+        padding: 10px 0px;
+    }
+    .main-footer footer .follow-us{
+        width: 100%;
+        text-align: center;
+        float: right;
+    }
+    .main-footer footer .follow-us h6{
+        color: #e1e100;
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .main-footer footer .follow-us i{
+        font-size: 20px;
+        border: 2px solid #fff;
+        padding: 10px;
+        color: #fff;
+        border-radius: 100%;
+        margin: 15px 5px;
+    }
+    .main-footer footer .follow-us i:hover{
+        background-color: #e1e100;
+        color: #232323;
+    }
+    .main-footer .copy-right{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    .main-footer .copy-right p{
+        color: #fff;
+        font-size: 20px;
+    }
+    #main-user-login-for-desktop,
+    #main-user-signup-for-desktop{
+        display: none;
+    }
+    .form-for-mobile{
+        display: none;
+        position: fixed;
+        background-color: #232323e1;
+        width: 100%;
+        height: 100%;
+        z-index: 150;
+        top: 0;
+        left: 0;
+    }
+    .form-for-mobile .main-user-login-for-mobile{
+        width: 300px;
+        position: absolute;
+        display: block;
+        top: 20%;
+        transform: translateY(-20%);
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20px;
+        background-color: #353535f3;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile{
+        width: 100%;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .close{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #fff;
+        padding: 5px;
+        border-radius: 100%;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile h6{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 0px;
+        color: #fff;
+        text-transform: uppercase;
+        
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile label{
+        font-size: 15px;
+        padding: 5px 0px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile input{
+        width: 100%;
+        border: 2px solid #999999;
+        outline: none;
+        padding: 10px;
+        background: none;
+        font-size: 13px;
+        color: #fff;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .button button{
+        width: 45%;
+        padding: 5px;
+        margin: 20px 0px;
+        border: none;
+        outline: none;
+        float: left;
+        background-color: #fff;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .button button:hover,
+    .form-for-mobile .main-user-signup-for-mobile .user-signup-for-mobile .button button:hover{
+        background-color: #009d00;
+        color: #fff;
+        font-weight: bold;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .button a:hover,
+    .form-for-mobile .main-user-signup-for-mobile .user-signup-for-mobile .button a:hover{
+        background-color: #d2d200;
+        font-weight: bold;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .button a{
+        width: 45%;
+        padding: 5px;
+        margin: 20px 0px;
+        border: none;
+        outline: none;
+        float: left;
+        background-color: #fff;
+        text-align: center;
+        color: #232323;
+    }
+
+    .main-user-signup-for-mobile{
+        width: 300px;
+        position: absolute;
+        display: none;
+        top: 15%;
+        transform: translateY(-15%);
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20PX;
+        background-color: #353535f3;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile{
+        width: 100%;
+    }
+    .form-for-mobile .main-user-signup-for-mobile .user-signup-for-mobile .close{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #fff;
+        padding: 5px;
+        border-radius: 100%;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile h6{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 0px;
+        color: #fff;
+        text-transform: uppercase;
+    
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile label{
+        font-size: 15px;
+        padding: 5px 0px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile input{
+        width: 100%;
+        border: 2px solid #999999;
+        outline: none;
+        padding: 10px;
+        background: none;
+        font-size: 13px;
+        color: #fff;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile .button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile .button button{
+        width: 45%;
+        padding: 5px;
+        margin: 20px 0px;
+        border: none;
+        outline: none;
+        float: left;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile .button a{
+        width: 45%;
+        padding: 5px;
+        margin: 20px 0px;
+        border: none;
+        outline: none;
+        float: left;
+        background-color: #fff;
+        text-align: center;
+        color: #232323;
+    }
+}
+@media (min-width: 481px) and (max-width: 767px){
+    .main-blog-1 .blog-1 .box:hover{
+        margin: 0px;
+    }
+    .main-header header{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-header header .logo{
+        width: 100px;
+        height: 80px;
+    }
+    .main-header header .icon{
+        display: block;
+        width: 35px;
+        height: 35px;
+        border: 2px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+    }
+    .main-header header .icon i{
+        font-size: 18px;
+        color: #fff;
+        padding: 5px;
+    }
+    .main-header header form{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #232323;
+        padding: 10px;
+    }
+    .main-header header form input{
+        width: 100%;
+        border: none;
+        outline: none;
+        padding: 5px;
+        position: relative;
+    }
+    .main-header header form button{
+        border: none;
+        outline: none;
+        position: absolute;
+        right: 10px;
+        padding: 5px;
+        width: 40px;
+        background-color: #e1e100;
+    }
+
+    .main-header nav,
+    .main-user-login,
+    .main-user-signup{
+        display: none;
+    }
+    #myNav{
+        display: none;
+    }
+    .mobile-menu{
+        width: 0;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #232323;
+        z-index: 200;
+        overflow-x: hidden;
+    }
+    .mobile-menu .icon{
+        display: block;
+        width: 35px;
+        height: 35px;
+        border: 2px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        position: absolute;
+        top: 32px;
+        right: 20px;
+        text-align: center;
+    }
+    .mobile-menu .icon i{
+        font-size: 18px;
+        color: #fff;
+        padding: 5px;
+    }
+    .mobile-menu ul{
+        margin: 100px 0px 0px 0px;
+        padding: 0;
+    }
+    .mobile-menu ul li{
+        padding: 10px;
+        text-align: center;
+    }
+    .mobile-menu ul li img{
+        width: 25px;
+        margin: 5px 0px;
+        height: 20px;
+    }
+    .mobile-menu ul li a{
+        display: block;
+        font-size: 13px;
+        color: #fff;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    #contact,
+    #user{
+        width: 30px;
+        height: 30px;
+    }
+
+    .trending i{
+        color: #e1e100;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .trending marquee{
+        width: 100%;
+        color: #e1e100;
+        font-size: 17px;
+        font-weight: 600;
+        padding: 10px;
+    }
+
+    .main-blog-1 .blog-1{
+        width: 100%;
+        margin: 10px auto;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #0000007a;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .main-blog-1 .blog-1 a{
+        width: 25%;
+        float: left;
+    }
+    .main-blog-1 .blog-1 a .box{
+        width: 96%;
+        float: left;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #20202042;
+        box-shadow: rgba(63, 63, 63, 0.582) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        transition: all 0.3s ease;
+    }
+    .main-blog-1 .blog-1 .box:not(.nohover){
+        margin-top: 0px;
+     }
+    .main-blog-1 .blog-1 a .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-blog-1 .blog-1 a .box .images img{
+        border-radius: 5px;
+    }
+    .main-blog-1 .blog-1 a .box .des h5{
+        font-size: 15px;
+        color: #e1e100;
+        font-weight: bold;
+    }
+    .main-blog-1 .blog-1 a .box .des h6{
+        font-size: 12px;
+        color: #e1e100;
+        font-weight: bold;
+    }
+
+    .main-blog-2{
+        width: 100%;
+        padding: 0px;
+        display: inline-block;
+    }
+    .main-blog-2 .blog-2{
+        width: 100%;
+        margin: 10px auto;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #0000007a;
+        box-shadow: rgba(63, 63, 63, 0.582) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        display: inline-block;
+    }
+    .main-blog-2 .blog-2 .left{
+        width: 100%;
+        float: none;
+    }
+    .main-blog-2 .blog-2 .left .main-box{
+        width: 25%;
+        float: left;
+        padding: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box{
+        width: 100%;
+        float: left;
+        margin: 0px auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box .images{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box .images img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box p{
+        color: #e1e100;
+        font-weight: bold;
+        font-size: 11px;
+        padding: 5px 0px;
+    }
+    .main-blog-2 .blog-2 .left .box .stars{
+        width: 100%;
+        padding: 5px;
+        margin-top: -15px;
+    }
+    .main-blog-2 .blog-2 .left .box .stars i{
+        color: #e1e100;
+        font-size: 10px;
+    }
+    .main-blog-2 .blog-2 .left .box .play{
+        border: 2px solid #e1e100;
+        padding: 0px;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box .play a{
+        color: #e1e100;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box .play:hover{
+        background-color: #99994c;
+    }
+    
+    .main-blog-2 .blog-2 .right{
+        width: 65%;
+        float: left;
+        display: none;
+    }
+    .main-blog-2 .blog-2 .right .box{
+        width: 100%;
+        margin: 5px auto;
+        padding: 10px;
+        background-color: #232323;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .right .box .images{
+        width: 100%;
+        height: 100%;
+    }
+    .main-blog-2 .blog-2 .right .box .images img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-blog-3 .blog-3{
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #0000007a;
+        box-shadow: rgba(63, 63, 63, 0.582) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+    .main-blog-3 .blog-3::after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .main-blog-3 .blog-3 .left{
+        width: 100%;
+        float: left;
+        /* background-color: #99994c; */
+    }
+    .main-blog-3 .blog-3 .left p{
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+    }
+    .main-blog-3 .blog-3 .left .link-download{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .main-blog-3 .blog-3 .left .link-download img{
+        width: 200px;
+        height: 100%;
+        margin: 10px;
+    }
+    .main-blog-3 .blog-3 .center{
+        width: 100%;
+        float: left;
+        display: none;
+    }
+    .main-blog-3 .blog-3 .center .box{
+        width: 100%;
+    }
+    .main-blog-3 .blog-3 .center .box .images{
+        width: 100%;
+        height: 100%;
+    }
+    .main-blog-3 .blog-3 .center .box .images img{
+        width: 100%;
+        height: 100%;
+    }
+    .main-blog-3 .blog-3 .right{
+        width: 100%;
+        float: left;
+        display: none;
+    }
+    .main-blog-3 .blog-3 .right .box{
+        width: 100%;
+    }
+    .main-blog-3 .blog-3 .right .box .images{
+        width: 100%;
+        height: 100%;
+    }
+    .main-blog-3 .blog-3 .right .box .images img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-footer footer{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .main-footer footer::after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .main-footer footer .about-us{
+        width: 100%;
+        text-align: center;
+        /* padding: 10px; */
+        float: left;
+    }
+    .main-footer footer .about-us h6{
+        color: #e1e100;
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .main-footer footer .about-us p{
+        font-size: 16px;
+        color: #fff;
+        padding: 10px 0px;
+    }
+    .main-footer footer .follow-us{
+        width: 100%;
+        text-align: center;
+        float: right;
+    }
+    .main-footer footer .follow-us h6{
+        color: #e1e100;
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .main-footer footer .follow-us i{
+        font-size: 20px;
+        border: 2px solid #fff;
+        padding: 10px;
+        color: #fff;
+        border-radius: 100%;
+        margin: 15px 5px;
+    }
+    .main-footer footer .follow-us i:hover{
+        background-color: #e1e100;
+        color: #232323;
+    }
+    .main-footer .copy-right{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    .main-footer .copy-right p{
+        color: #fff;
+        font-size: 20px;
+    }
+    #main-user-login-for-desktop,
+    #main-user-signup-for-desktop{
+        display: none;
+    }
+    .form-for-mobile{
+        display: none;
+        position: fixed;
+        background-color: #232323e1;
+        width: 100%;
+        height: 100%;
+        z-index: 150;
+        top: 0;
+        left: 0;
+    }
+    .form-for-mobile .main-user-login-for-mobile{
+        width: 300px;
+        position: absolute;
+        display: block;
+        top: 20%;
+        transform: translateY(-20%);
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20px;
+        background-color: #353535f3;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile{
+        width: 100%;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .close{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #fff;
+        padding: 5px;
+        border-radius: 100%;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile h6{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 0px;
+        color: #fff;
+        text-transform: uppercase;
+        
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile label{
+        font-size: 15px;
+        padding: 5px 0px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile input{
+        width: 100%;
+        border: 2px solid #999999;
+        outline: none;
+        padding: 10px;
+        background: none;
+        font-size: 13px;
+        color: #fff;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .button button{
+        width: 45%;
+        padding: 5px;
+        margin: 20px 0px;
+        border: none;
+        outline: none;
+        float: left;
+        background-color: #fff;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .button button:hover,
+    .form-for-mobile .main-user-signup-for-mobile .user-signup-for-mobile .button button:hover{
+        background-color: #009d00;
+        color: #fff;
+        font-weight: bold;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .button a:hover,
+    .form-for-mobile .main-user-signup-for-mobile .user-signup-for-mobile .button a:hover{
+        background-color: #d2d200;
+        font-weight: bold;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .button a{
+        width: 45%;
+        padding: 5px;
+        margin: 20px 0px;
+        border: none;
+        outline: none;
+        float: left;
+        background-color: #fff;
+        text-align: center;
+        color: #232323;
+    }
+
+    .main-user-signup-for-mobile{
+        width: 300px;
+        position: absolute;
+        display: none;
+        top: 15%;
+        transform: translateY(-15%);
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20PX;
+        background-color: #353535f3;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile{
+        width: 100%;
+    }
+    .form-for-mobile .main-user-signup-for-mobile .user-signup-for-mobile .close{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #fff;
+        padding: 5px;
+        border-radius: 100%;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile h6{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 0px;
+        color: #fff;
+        text-transform: uppercase;
+    
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile label{
+        font-size: 15px;
+        padding: 5px 0px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile input{
+        width: 100%;
+        border: 2px solid #999999;
+        outline: none;
+        padding: 10px;
+        background: none;
+        font-size: 13px;
+        color: #fff;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile .button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile .button button{
+        width: 45%;
+        padding: 5px;
+        margin: 20px 0px;
+        border: none;
+        outline: none;
+        float: left;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile .button a{
+        width: 45%;
+        padding: 5px;
+        margin: 20px 0px;
+        border: none;
+        outline: none;
+        float: left;
+        background-color: #fff;
+        text-align: center;
+        color: #232323;
+    }
+}
+@media (min-width: 320px) and (max-width: 480px){
+    .main-header header{
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .main-header header .logo{
+        width: 100px;
+        height: 80px;
+    }
+    .main-header header .icon{
+        display: block;
+        width: 35px;
+        height: 35px;
+        border: 2px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+    }
+    .main-header header .icon i{
+        font-size: 18px;
+        color: #fff;
+        padding: 5px;
+    }
+    .main-header header form{
+        display: none;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background-color: #232323;
+        padding: 10px;
+    }
+    .main-header header form input{
+        width: 100%;
+        border: none;
+        outline: none;
+        padding: 5px;
+        position: relative;
+    }
+    .main-header header form button{
+        border: none;
+        outline: none;
+        position: absolute;
+        right: 10px;
+        padding: 5px;
+        width: 40px;
+        background-color: #e1e100;
+    }
+
+    .main-header nav,
+    .main-user-login,
+    .main-user-signup{
+        display: none;
+    }
+    #myNav{
+        display: none;
+    }
+    .mobile-menu{
+        width: 0;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        background-color: #232323;
+        z-index: 200;
+        overflow-x: hidden;
+    }
+    .mobile-menu .icon{
+        display: block;
+        width: 35px;
+        height: 35px;
+        border: 2px solid #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 100%;
+        position: absolute;
+        top: 32px;
+        right: 20px;
+        text-align: center;
+    }
+    .mobile-menu .icon i{
+        font-size: 18px;
+        color: #fff;
+        padding: 5px;
+    }
+    .mobile-menu ul{
+        margin: 100px 0px 0px 0px;
+        padding: 0;
+    }
+    .mobile-menu ul li{
+        padding: 10px;
+        text-align: center;
+    }
+    .mobile-menu ul li img{
+        width: 25px;
+        margin: 5px 0px;
+        height: 20px;
+    }
+    .mobile-menu ul li a{
+        display: block;
+        font-size: 13px;
+        color: #fff;
+        font-weight: 500;
+        text-transform: uppercase;
+    }
+    #contact,
+    #user{
+        width: 30px;
+        height: 30px;
+    }
+
+    .trending i{
+        color: #e1e100;
+        font-size: 20px;
+        font-weight: bold;
+        padding: 10px;
+    }
+    .trending marquee{
+        width: 100%;
+        color: #e1e100;
+        font-size: 17px;
+        font-weight: 600;
+        padding: 10px;
+    }
+
+    .main-blog-1 .blog-1{
+        width: 100%;
+        margin: 10px auto;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #0000007a;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    .main-blog-1 .blog-1 a{
+        width: 50%;
+        float: left;
+    }
+    .main-blog-1 .blog-1 a .box{
+        width: 95%;
+        float: left;
+        margin: 5px;
+        border-radius: 5px;
+        padding: 10px;
+        background-color: #20202042;
+        box-shadow: rgba(63, 63, 63, 0.582) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+    .main-blog-1 .blog-1 .box:not(.nohover){
+       margin-top: 0px;
+    }
+    .main-blog-1 .blog-1 a .box .images{
+        width: 100%;
+        height: 100%;
+        overflow: hidden;
+        border-radius: 5px;
+    }
+    .main-blog-1 .blog-1 a .box .images img{
+        border-radius: 5px;
+    }
+    .main-blog-1 .blog-1 a .box .des h5{
+        font-size: 15px;
+        color: #e1e100;
+        font-weight: bold;
+    }
+    .main-blog-1 .blog-1 a .box .des h6{
+        font-size: 12px;
+        color: #e1e100;
+        font-weight: bold;
+    }
+
+    .main-blog-2{
+        width: 100%;
+        padding: 0px;
+        display: inline-block;
+    }
+    .main-blog-2 .blog-2{
+        width: 100%;
+        margin: 10px auto;
+        padding: 5px;
+        border-radius: 10px;
+        background-color: #0000007a;
+        box-shadow: rgba(63, 63, 63, 0.582) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+        display: inline-block;
+    }
+    .main-blog-2 .blog-2 .left{
+        width: 100%;
+        float: none;
+    }
+    .main-blog-2 .blog-2 .left .main-box{
+        width: 50%;
+        float: left;
+        padding: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box{
+        width: 100%;
+        float: left;
+        margin: 0px auto;
+        display: block;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box .images{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box .images img{
+        width: 100%;
+        height: 100%;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box p{
+        color: #e1e100;
+        font-weight: bold;
+        font-size: 11px;
+        padding: 5px 0px;
+    }
+    .main-blog-2 .blog-2 .left .box .stars{
+        width: 100%;
+        padding: 5px;
+        margin-top: -15px;
+    }
+    .main-blog-2 .blog-2 .left .box .stars i{
+        color: #e1e100;
+        font-size: 10px;
+    }
+    .main-blog-2 .blog-2 .left .box .play{
+        border: 2px solid #e1e100;
+        padding: 0px;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box .play a{
+        color: #e1e100;
+        font-size: 13px;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .left .box .play:hover{
+        background-color: #99994c;
+    }
+    
+    .main-blog-2 .blog-2 .right{
+        width: 100%;
+        float: right;
+        
+    }
+    .main-blog-2 .blog-2 .right .box{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        background-color: #232323;
+        border-radius: 5px;
+    }
+    .main-blog-2 .blog-2 .right .box .images{
+        width: 100%;
+        height: 100%;
+    }
+    .main-blog-2 .blog-2 .right .box .images img{
+        width: 100%;
+        height: 100%;
+    }
+
+
+    .main-blog-3 .blog-3{
+        width: 100%;
+        margin: 10px auto;
+        padding: 10px;
+        border-radius: 10px;
+        background-color: #0000007a;
+        box-shadow: rgba(63, 63, 63, 0.582) 0px 1px 3px 0px, rgba(27, 31, 35, 0.15) 0px 0px 0px 1px;
+    }
+    .main-blog-3 .blog-3::after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .main-blog-3 .blog-3 .left{
+        width: 100%;
+        float: left;
+        /* background-color: #99994c; */
+    }
+    .main-blog-3 .blog-3 .left p{
+        font-size: 18px;
+        font-weight: bold;
+        color: #fff;
+        text-align: center;
+    }
+    .main-blog-3 .blog-3 .left .link-download{
+        display: block;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+        text-align: center;
+    }
+    .main-blog-3 .blog-3 .left .link-download img{
+        width: 200px;
+        height: 100%;
+        margin: 10px;
+    }
+    .main-blog-3 .blog-3 .center{
+        width: 100%;
+        float: left;
+        display: none;
+    }
+    .main-blog-3 .blog-3 .center .box{
+        width: 100%;
+    }
+    .main-blog-3 .blog-3 .center .box .images{
+        width: 100%;
+        height: 100%;
+    }
+    .main-blog-3 .blog-3 .center .box .images img{
+        width: 100%;
+        height: 100%;
+    }
+    .main-blog-3 .blog-3 .right{
+        width: 100%;
+        float: left;
+    }
+    .main-blog-3 .blog-3 .right .box{
+        width: 100%;
+    }
+    .main-blog-3 .blog-3 .right .box .images{
+        width: 100%;
+        height: 100%;
+    }
+    .main-blog-3 .blog-3 .right .box .images img{
+        width: 100%;
+        height: 100%;
+    }
+
+    .main-footer footer{
+        width: 100%;
+        margin: auto;
+        padding: 10px;
+        margin-top: 20px;
+    }
+    .main-footer footer::after{
+        display: table;
+        content: "";
+        clear: both;
+    }
+    .main-footer footer .about-us{
+        width: 100%;
+        text-align: center;
+        /* padding: 10px; */
+        float: left;
+    }
+    .main-footer footer .about-us h6{
+        color: #e1e100;
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .main-footer footer .about-us p{
+        font-size: 16px;
+        color: #fff;
+        padding: 10px 0px;
+    }
+    .main-footer footer .follow-us{
+        width: 100%;
+        text-align: center;
+        float: right;
+    }
+    .main-footer footer .follow-us h6{
+        color: #e1e100;
+        font-size: 23px;
+        font-weight: 600;
+    }
+    .main-footer footer .follow-us i{
+        font-size: 20px;
+        border: 2px solid #fff;
+        padding: 10px;
+        color: #fff;
+        border-radius: 100%;
+        margin: 15px 5px;
+    }
+    .main-footer footer .follow-us i:hover{
+        background-color: #e1e100;
+        color: #232323;
+    }
+    .main-footer .copy-right{
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        padding: 10px;
+    }
+    .main-footer .copy-right p{
+        color: #fff;
+        font-size: 20px;
+    }
+    #main-user-login-for-desktop,
+    #main-user-signup-for-desktop{
+        display: none;
+    }
+    .form-for-mobile{
+        display: none;
+        position: fixed;
+        background-color: #232323e1;
+        width: 100%;
+        height: 100%;
+        z-index: 150;
+        top: 0;
+        left: 0;
+    }
+    .form-for-mobile .main-user-login-for-mobile{
+        width: 300px;
+        position: absolute;
+        display: block;
+        top: 20%;
+        transform: translateY(-20%);
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20px;
+        background-color: #353535f3;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile{
+        width: 100%;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .close{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #fff;
+        padding: 5px;
+        border-radius: 100%;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile h6{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 0px;
+        color: #fff;
+        text-transform: uppercase;
+        
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile label{
+        font-size: 15px;
+        padding: 5px 0px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile input{
+        width: 100%;
+        border: 2px solid #999999;
+        outline: none;
+        padding: 10px;
+        background: none;
+        font-size: 13px;
+        color: #fff;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .button button{
+        width: 45%;
+        padding: 5px;
+        margin: 20px 0px;
+        border: none;
+        outline: none;
+        float: left;
+        background-color: #fff;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .button button:hover,
+    .form-for-mobile .main-user-signup-for-mobile .user-signup-for-mobile .button button:hover{
+        background-color: #009d00;
+        color: #fff;
+        font-weight: bold;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .button a:hover,
+    .form-for-mobile .main-user-signup-for-mobile .user-signup-for-mobile .button a:hover{
+        background-color: #d2d200;
+        font-weight: bold;
+    }
+    .form-for-mobile .main-user-login-for-mobile .user-login-for-mobile .button a{
+        width: 45%;
+        padding: 5px;
+        margin: 20px 0px;
+        border: none;
+        outline: none;
+        float: left;
+        background-color: #fff;
+        text-align: center;
+        color: #232323;
+    }
+
+    .main-user-signup-for-mobile{
+        width: 300px;
+        position: absolute;
+        display: none;
+        top: 15%;
+        transform: translateY(-15%);
+        left: 50%;
+        transform: translateX(-50%);
+        padding: 20PX;
+        background-color: #353535f3;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile{
+        width: 100%;
+    }
+    .form-for-mobile .main-user-signup-for-mobile .user-signup-for-mobile .close{
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        font-size: 20px;
+        color: #fff;
+        width: 30px;
+        height: 30px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 2px solid #fff;
+        padding: 5px;
+        border-radius: 100%;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile h6{
+        font-size: 20px;
+        font-weight: bold;
+        text-align: center;
+        padding: 10px 0px;
+        color: #fff;
+        text-transform: uppercase;
+    
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile label{
+        font-size: 15px;
+        padding: 5px 0px;
+        font-weight: 500;
+        color: #fff;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile input{
+        width: 100%;
+        border: 2px solid #999999;
+        outline: none;
+        padding: 10px;
+        background: none;
+        font-size: 13px;
+        color: #fff;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile .button{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 100%;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile .button button{
+        width: 45%;
+        padding: 5px;
+        margin: 20px 0px;
+        border: none;
+        outline: none;
+        float: left;
+    }
+    .main-user-signup-for-mobile .user-signup-for-mobile .button a{
+        width: 45%;
+        padding: 5px;
+        margin: 20px 0px;
+        border: none;
+        outline: none;
+        float: left;
+        background-color: #fff;
+        text-align: center;
+        color: #232323;
+    }
+}
